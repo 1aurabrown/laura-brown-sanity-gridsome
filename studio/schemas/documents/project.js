@@ -6,6 +6,12 @@ export default {
   title: 'Project',
   fields: [
     {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
+    {
       name: 'title',
       type: 'string',
       title: 'Title',
@@ -57,6 +63,16 @@ export default {
     }
   ],
   orderings: [
+    {
+      name: 'order',
+      title: 'Custom  Order',
+      by: [
+        {
+          field: 'order',
+          direction: 'asc'
+        }
+      ]
+    },
     {
       name: 'dateAsc',
       title: 'Date new–>old',

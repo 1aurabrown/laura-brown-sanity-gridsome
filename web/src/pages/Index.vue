@@ -54,7 +54,7 @@
     }
   }
 
-  projects: allSanityProject(sortBy: "date") {
+  projects: allSanityProject(sortBy: "order", order:ASC) {
     edges{
       node{
         role
