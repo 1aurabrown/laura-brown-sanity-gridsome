@@ -9,11 +9,14 @@
 body {
  	background-color: var(--bg-color);
  	color: var(--body-color);
- 	transition: color .6s, background-color .6s;
   margin:0;
   padding:0;
   line-height: 1.5;
   position: relative;
+}
+
+body[data-loaded] {
+  transition: color .6s, background-color .6s;
 }
 
 body, html {

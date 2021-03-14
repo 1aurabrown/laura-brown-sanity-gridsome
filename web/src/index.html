@@ -25,6 +25,7 @@
           try {
             localStorage.setItem('theme', newTheme)
           } catch (err) {}
+          document.body.setAttribute('data-loaded', 'data-loaded')
         }
 
         var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')

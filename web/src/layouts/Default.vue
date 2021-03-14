@@ -40,9 +40,14 @@ export default {
 
 <style lang="scss">
 
+body[data-loaded]{
+  .header {
+    transition: color .6s, background-color .6s;
+  }
+}
 .header {
-  transition: color .6s, background-color .6s;
-  background: var(--bg-color);
+  background-color: var(--bg-color);
+  color: var(--body-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
