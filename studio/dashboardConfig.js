@@ -18,13 +18,13 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
-                  buildHookId: '604e173fc49ff7b80e0e3a17',
+                  buildHookId: '604e756e648d6ccef99cce92',
                   title: 'Sanity Studio',
                   name: 'laura-brown-sanity-gridsome-studio',
                   apiId: '32b4c633-72a9-4251-a9a1-8e15985629a4'
                 },
                 {
-                  buildHookId: '604e173f64e22205fd8efc19',
+                  buildHookId: '604e7529294def329d36b499',
                   title: 'Frontend',
                   name: 'laura-brown-studio',
                   apiId: '84abe59e-edf5-4562-9c1f-3a3e8c4d6d0a'
