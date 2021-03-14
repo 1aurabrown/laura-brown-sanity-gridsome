@@ -25,8 +25,8 @@ export default {
                 },
                 {
                   buildHookId: '604e173f64e22205fd8efc19',
-                  title: 'Blog Website',
-                  name: 'laura-brown-sanity-gridsome',
+                  title: 'Frontend',
+                  name: 'laura-brown-studio',
                   apiId: '84abe59e-edf5-4562-9c1f-3a3e8c4d6d0a'
                 }
               ]
