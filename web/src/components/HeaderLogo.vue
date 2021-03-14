@@ -1,13 +1,14 @@
 <template>
   <g-link class="logo" to="/">
-    <span class="logo__text">&larr; {{ $static.metadata.siteName }}</span>
+    <h1 class="h1 logo__text">{{ $static.siteSettings.title }}</h1>
   </g-link>
 </template>
 
 <static-query>
 query {
-  metadata {
-    siteName
+  siteSettings: sanitySiteSettings(id: "siteSettings") {
+    title
+    description
   }
 }
 </static-query>
@@ -17,6 +18,9 @@ query {
   text-decoration: none;
   color: var(--body-color) !important;
   font-size: 0.9em;
+  &__text {
+    margin: 0
+  }
 
   &__image {
     vertical-align: middle;
