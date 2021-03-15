@@ -16,5 +16,8 @@
   "devDependencies": {
     "@sanity/cli": "^2.6.0",
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.2"
   }
 }
