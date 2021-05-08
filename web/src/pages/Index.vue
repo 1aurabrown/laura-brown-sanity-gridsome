@@ -108,10 +108,6 @@ export default {
     border-top: 1px solid var(--border-color);
   }
 
-  .intro, .projects__list, .info__inner {
-    max-width: 600px;
-  }
-
   @media screen and (min-width: 721px) {
     .container {
       display: flex;
@@ -126,6 +122,22 @@ export default {
     }
     .info {
       padding-left: calc(var(--space) / 2);
+    }
+  }
+  @media screen and (min-width: 1441px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start
+    }
+    .projects, .info {
+      flex: 1;
+    }
+    .projects {
+      padding-right: 5%;
+    }
+    .info {
+      padding-left:  5%;
     }
   }
 </style>
